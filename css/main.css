@@ -1,10 +1,3 @@
-/* --------------------Color Swatch------------------------
-#9C3208 - h1	
-
-
----------------------------------------------------------- */
-
-
 /* ----------------Body Styling--------------------------- */
 
 body{
@@ -25,12 +18,13 @@ p{
 h1{
 	font: 3em "PT Sans Caption", "PT Sans Narrow", Arial, sans-serif;
 	color: #9c3208;
-	text-shadow: 2px 2px 2px #999;
+	text-shadow: 2px 2px 2px #000;
 }
 	
 h3{
 	font: 1.75em "Francois One", Arial, helvetica, sans-serif;
 	color: #8A5000;
+	margin: 0px 0px 0px 25px;
 }
 
 h5{
@@ -44,7 +38,7 @@ nav ul{
 	float: right;
 	width: 400px;
 	list-style-type: none;
-	padding: 0;
+	padding: 0px 25px 0px 0px;
 	overflow: hidden;
 }
 
@@ -82,9 +76,9 @@ nav a:active{
 header{
 	background-color: #000;
 	width: 100%;
-	padding: 0px 25px 0px 25px;
 	height: 125px;
-	margin: 0px 0px 50px 0px;
+	margin: 0px 40px 50px 0px;
+	padding: opx 40px 0px 0px;
 }
 
 header img{
@@ -95,8 +89,12 @@ header img{
 
 /* ---------------Main/Home Page---------------------------*/
 
-.main_section{
+#demo{
 	background-color: #999;
+	padding: 0px 0px 25px 0px;
+	width: 100%;
+	margin: auto 0;
+	overflow: hidden;
 }
 
 #main_image{
@@ -105,7 +103,7 @@ header img{
 }
 
 section{
-	width: 600px;
+	width: 560px;
 	float: right;
 }
 
@@ -148,17 +146,17 @@ aside ul{
 	clear: left;
 }
 
-ol{
+.information_links ol{
 	list-style-type: none;
 }
 
-.information_links a:link{
-	color: #8A5000;
+ol a:link{
+	color: #000;
 }
 
-
-
-
+ol a:hover{
+	color: #8A0029;
+}
 
 /* ---------------Story paragraphs in columns-------------- */
 

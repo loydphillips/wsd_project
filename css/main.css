@@ -1,12 +1,12 @@
 /* ----------------Body Styling--------------------------- */
 
 body{
-	width: 960px;
+	font: 100%/1.5 Actor, Arial, sans-serif;
+	max-width: 960px;
 	margin: 0 auto;
 	padding: 0;
-	font-size: 15px;
-	line-height: 1.5;
-	font-family: Actor, Arial, sans-serif;
+	/*line-height: 1.5;
+	font-family: Actor, Arial, sans-serif;*/
 	color: #000;
 }
 
@@ -36,14 +36,14 @@ h5{
 
 nav ul{
 	float: right;
-	width: 400px;
+	width: 41.66666%;
 	list-style-type: none;
-	padding: 0px 25px 0px 0px;
+	padding: 0% 6.25% 0% 0%;
 	overflow: hidden;
 }
 
 nav ul li{
-	width: 100px;
+	width: 25%;
 	float: left;
 }
 
@@ -52,7 +52,7 @@ nav a{
 	background: #333;
 	display: block;
 	border-right: 1px solid #666;
-	margin: 25px 0px 0px 0px;
+	margin: 25% 0% 0% 0%;
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
@@ -72,13 +72,19 @@ nav a:active{
 
 
 /* -----------------------Header----------------------------*/
+#wrapper {
+	font: 100%/1.5 Actor, Arial, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
 header{
 	background-color: #000;
-	width: 100%;
+	width: 95.83333%;
 	height: 125px;
-	margin: 0px 40px 0px 0px;
-	padding: opx 40px 0px 0px;
+	margin: 0% 4.34782% 0% 0%;
+	padding: 0% 0% 0% 40px;
 }
 
 header img{
@@ -91,47 +97,55 @@ header img{
 
 #demo{
 	background-color: #999;
-	padding: 0px 0px 25px 0px;
+	padding: 0% 0% 2.60416% 0%;
 	width: 100%;
 	margin: auto 0;
 	overflow: hidden;
 }
 
 #main_image{
-	margin: 30px 0px 0px 0px;
+	margin: 5.35714% 0% 0% 0%;
+	width: 38.30953%;
 	float: left
 }
 
 section{
-	width: 560px;
+	width: 56.33333%; /*560px / 960px*/
 	float: right;
 }
-
 
 /* -----------------Images in Gallery--------------------*/
 
 .image_gallery{
 	clear: right;
+	max-width: 97.91666%;
+
 }
+
+.image_gallery ul{
+	margin: 0 auto;
+}
+
 .image_gallery ul li img{
+	max-width: 15.95744%
 	border-radius: 15px;
 	border-width: 10px;
+	margin: 5px;
 	border-color: #000;
 	border-style: solid;
+	padding-left: 20px;
 	float: left;
-	margin: 20px auto;
 }
 
 .image_gallery ul li{
 	list-style-type: none;
-	padding-left: 20px;
 }
 
 /* ----------------------Aside----------------------------*/
 
 aside{
 	float: left;
-	width: 371px;
+	width: 38.64583%;
 	clear: left;
 }
 
@@ -168,7 +182,7 @@ article{
 
 article p{
 	color: #fff;
-	font-size: .75em/1;
+	font-size: 1em/1.25;
 	border: none;
 	padding: 0px 15px 20px 15px;
 	text-align: justify;
@@ -198,4 +212,22 @@ article h5{
 	background-color: #000;
 	width: 100%;
 	height: 500px;
+}
+
+/* --------------------Media Queries---------------------*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 959px) {
+		header {background-color: #509cff;}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media screen and (min-width: 480px) and (max-width: 767px) {
+		header {background-color: #ff7743;}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape (devices and browsers) */
+	@media screen and (max-width: 479px) {
+		header {background-color: #d593ff;}
+
 }

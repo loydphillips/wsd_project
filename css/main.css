@@ -84,7 +84,7 @@ header{
 	width: 95.83333%;
 	height: 125px;
 	margin: 0% 4.34782% 0% 0%;
-	padding: 0% 0% 0% 40px;
+	padding: 0% 0% 0% 4.16666%;
 }
 
 header img{
@@ -127,7 +127,7 @@ section{
 }
 
 .image_gallery ul li img{
-	max-width: 15.95744%
+	max-width: 15.95744%;
 	border-radius: 15px;
 	border-width: 10px;
 	margin: 5px;

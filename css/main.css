@@ -229,12 +229,15 @@ article h5{
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media screen and (min-width: 480px) and (max-width: 767px) {
 		header {background-color: #ff7743;} /* Orange */
-		section {float: none; clear: left;} 
+		section {float: none; clear: left; width: 90%;} 
 		h1 {font-size: 2em;}
 		header img {display: none;}
 		nav ul {float: none; width: 90%;}
 		h5 {font-size: 1em}
 		p {font-size: .90em}
+		aside {width: 90%;}
+		#stories {display: inline;}
+		
 }
 
 	/* Mobile Portrait Size to Mobile Landscape (devices and browsers) */
@@ -246,4 +249,6 @@ article h5{
 		h1 {font-size: 1.5em;}
 		p {font-size: .90em}
 		aside {width: 90%;}
+		#stories {display: inline;}
+		.image_gallery {display: none;}
 }

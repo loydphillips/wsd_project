@@ -218,16 +218,32 @@ article h5{
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
-		header {background-color: #509cff;}
+		header {background-color: #509cff;} /* Blue */
+		.image_gallery ul li img {max-width: 14.95744%}
+		section {max-width: 50%; float: right;}
+		#main_image{margin: 5.35714% 0% 0% 0%; width: 38.30953%; float: left;}
+		h5 {font-size: 1em}
+		p {font-size: .90em}
 }
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media screen and (min-width: 480px) and (max-width: 767px) {
-		header {background-color: #ff7743;}
+		header {background-color: #ff7743;} /* Orange */
+		section {float: none; clear: left;} 
+		h1 {font-size: 2em;}
+		header img {display: none;}
+		nav ul {float: none; width: 90%;}
+		h5 {font-size: 1em}
+		p {font-size: .90em}
 }
 
 	/* Mobile Portrait Size to Mobile Landscape (devices and browsers) */
 	@media screen and (max-width: 479px) {
-		header {background-color: #d593ff;}
-
+		header {background-color: #d593ff;}/* purple */
+		header img {display: none;}
+		nav ul {float: none; width: 90%;}
+		section {float: none; clear: left; width: 90%;}
+		h1 {font-size: 1.5em;}
+		p {font-size: .90em}
+		aside {width: 90%;}
 }

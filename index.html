@@ -98,9 +98,85 @@
 	<!--				Contact Page						-->
 	
 	
-	<div class="contact_form">
-		<h3 id="contact">Find Out More</h3>
-	</div>
+<!-- <div class="contact_form" -->
+<div id="table_wrapper">
+<h3>Breed Information</h3>
+	<table summary="Breed Descriptions">
+		<tr>
+			<th>Breed Type</th>
+			<th>Average Size</th>
+			<th>Good With Kids</th>
+			<th>Good With Pets</th>
+		</tr>
+		<tr>
+			<td>English Staffy</td>
+			<td>Small to Medium</td>
+			<td class="td_center">10/10</td>
+			<td class="td_center">8/10</td>
+		</tr>
+		<tr>
+			<td>Teacup Chihuahua</td>
+			<td>Extra Small</td>
+			<td class="td_center">8/10</td>
+			<td class="td_center">7/10</td>
+		</tr>
+		<tr>
+			<td>Boston Terrier</td>
+			<td>Small</td>
+			<td class="td_center">6/10</td>
+			<td class="td_center">6/10</td>
+		</tr>
+		<tr>
+			<td>Pit Bull Terrier</td>
+			<td>Medium to X-Large</td>
+			<td class="td_center">10/10</td>
+			<td class="td_center">10/10</td>
+		</tr>
+	</table>
+</div>
+<div id="form_wrapper">
+<h3>Receive Our Newsletter</h3>
+	<form method="get" action="mailto:example@example.com">
+		<div>
+			<p>*<label for="name_first">First Name</label></br>
+			<input type="text" name="name_first" id="name_first"/><p>
+		</div>
+		<div>
+			<p>*<label for="name_last">Last Name</label></br>
+			<input type="text" name="name_last" id="name_last"/></p>
+		</div>
+		<div>
+			<p><label for="breed">Breed Interest</label></br>
+			<input type="text" name="breed" id="breed"/></p>
+		</div>
+		<div>
+			<p>*<label for="email">Email Address</label></br>
+			<input type="text" name="email" id="email"/></p>
+		</div>
+		<div>
+			<label for="area_of_interest">Area of Interest</label></br>
+		</div>
+		<div>
+			<select name="area_of_interest" id="area_of_interes">
+				<option>Canine Health</option>
+				<option>Dog Training</option>
+				<option>Pet Therapy</option>
+				<option>General Interest</option>
+			</select>
+		</div>
+		<div>
+			<p><label for="message">Message</label></br>
+			<textarea rows="15" cols="50" name="message" id="message"></textarea></p>
+		</div>
+		<div>
+			<p><input type="checkbox" name="enroll_me_in_newsletter" id="enroll_me_in_newsletter"/>
+			* Please send me your weekly newsletter</p>
+		</div>
+		<div>
+			<button type="submit" name="submit" class="button">Send Message</button>
+		</div>
+	</form>
+<!-- </div> -->
 	
 	<!--					Footer							-->
 	
